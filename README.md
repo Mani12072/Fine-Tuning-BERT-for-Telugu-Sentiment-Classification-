@@ -15,11 +15,14 @@ This project involves **fine-tuning a BERT model for sentiment classification** 
 - **Dataset**: `Sanath369/Telugu_sentiment_sentences` (via Hugging Face Hub)
 - **Evaluation Metrics**: Accuracy, F1 Score
 - **Libraries**: Transformers, Datasets, Evaluate, Scikit-learn, PyTorch
-I have written all the code in a single file, providing a step-by-step guide to create the model. The file covers everything from data preprocessing to model training and evaluation, with detailed comments explaining each step.
+- 
+I have written all the code in a single file to create the model, and it provides a complete, step-by-step guide through the entire process. By reviewing this file, you can easily understand the approach I took to build the model from scratch. The file contains every essential step, from data preprocessing to model training and evaluation.
 
-While I created a Streamlit app for deployment, the focus is on the coding file, which includes the model architecture, training pipeline, and evaluation procedures. The file serves as the core resource, and the Streamlit deployment is an extension of the logic within it.
+I have also thoroughly documented the code, explaining each function, method, and logic used throughout the file. Each step is detailed, allowing anyone to follow along and replicate the process. This includes the model’s architecture, the training pipeline, and the evaluation procedures I applied.
 
-This file is essential for understanding and replicating the entire model-building process, with the deployment handled through Hugging Face.
+Although I’ve created a Streamlit application to deploy the model, the main focus is on the coding file itself. The file not only helps in creating the model but also serves as the foundation for deployment. After creating and fine-tuning the model in the code file, I used it for deployment, but all the core work and logic are built within the file.
+
+This coding file is the key resource, and it includes all the necessary components to understand, implement, and improve the model. The deployment via Streamlit and Hugging Face is only an extension of the core logic provided in this file.
 
 Link for Hugging Face:https://huggingface.co/spaces/Mpavan45/Telugu_Sentiment_Finetuning
 
